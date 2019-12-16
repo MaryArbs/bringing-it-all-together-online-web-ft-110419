@@ -60,6 +60,6 @@ class Dog
     self.new_from_db(row)
     end
 end
-  end
+
 
 end

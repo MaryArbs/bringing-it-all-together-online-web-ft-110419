@@ -47,6 +47,6 @@ class Dog
          :breed => row[2]
        }
        self.new(attributes) # return the newly created instance
-end
+  end
 
 end

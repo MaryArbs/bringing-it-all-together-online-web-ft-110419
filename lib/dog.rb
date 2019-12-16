@@ -46,7 +46,7 @@ class Dog
          :name => row[1],
          :breed => row[2]
        }
-       self.new(attributes_hash) # return the newly created instance
+       self.new(attributes) # return the newly created instance
 end
 
 end

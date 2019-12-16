@@ -67,7 +67,7 @@ class Dog
         SQL
 
 
-        dog = DB[:conn].execute(sql, name, breed).first
+     dog = DB[:conn].execute(sql, name, breed).first
 
         if dog
           new_dog = self.new_from_db(dog)

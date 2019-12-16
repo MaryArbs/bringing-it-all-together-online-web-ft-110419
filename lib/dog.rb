@@ -61,7 +61,7 @@ class Dog
   end
 
   def self.find_or_create_
-  end 
+  end
 
 
 end

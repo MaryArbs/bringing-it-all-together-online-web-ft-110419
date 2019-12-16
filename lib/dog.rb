@@ -40,7 +40,7 @@ class Dog
     dog
   end
 
-  def self.new_from_db(row)
+  def self.new_from_db(row) #creates an instance with corresponding attribute values
     attributes = {
          :id => row[0],
          :name => row[1],

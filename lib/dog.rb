@@ -49,4 +49,7 @@ class Dog
        self.new(attributes) # return the newly created instance
   end
 
+  def self.find_by_id
+  end 
+
 end

@@ -49,7 +49,7 @@ class Dog
        self.new(attributes) # return the newly created instance
   end
 
-  def self.find_by_id
+  def self.find_by_id(id)
     sql = <<-SQL
   SELECT * FROM dogs
   WHERE id = ?

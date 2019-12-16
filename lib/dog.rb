@@ -34,7 +34,8 @@ class Dog
   end
 
 
-  def self.create(attributes)
+  def self.create(attributes) # takes in a hash of attributes and uses metaprogramming to create a new dog object. Then it uses the #save method to save that dog to the database
+    returns a new dog object
     dog = Dog.new(attributes)
     dog.save
     dog
